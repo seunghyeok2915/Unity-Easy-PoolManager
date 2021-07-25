@@ -2,7 +2,10 @@
 매우 쉬운 풀매니저
 ## 사용법
 ### 설명
-IPoolable 은 풀매니저로 가져온후 함수를 호출하고싶을때 사용합니다.
+풀하고 싶은 오브젝트를 Resources\Prefabs 폴더안에 넣어놔야함
+![image](https://user-images.githubusercontent.com/64355834/126892204-972d5dc3-5b07-4d2d-b9ca-4d8c274f2f09.png)
+
+IPoolable 인터페이스는 풀매니저로 가져온후 함수를 호출하고싶을때 사용합니다. (없어도됨)
 ```c#
     public void OnPool()
     {
