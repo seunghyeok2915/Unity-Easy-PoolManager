@@ -3,7 +3,6 @@
 ## 사용법
 ### 설명
 IPoolable 은 풀매니저로 가져온후 함수를 호출하고싶을때 사용합니다.
-예제 - 
 ```c#
     public void OnPool()
     {
