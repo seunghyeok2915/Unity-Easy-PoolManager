@@ -15,9 +15,9 @@ IPoolable 인터페이스는 풀매니저로 가져온후 함수를 호출하고
 ```
 ### 생성
 ```c#
-PoolManager.CreatePool<타입>(이름, 부모 오브젝트 트랜즈폼, 생성 개수); // 풀 생성
+PoolManager.CreatePool<타입>(폴더안에있는 오브젝트이름, 부모 오브젝트 트랜즈폼, 생성 개수); // 풀 생성
 ```
 ### 가져오기
 ```c#
-PoolManager.GetItem<타입>(이름);
+PoolManager.GetItem<타입>(폴더안에있는 오브젝트이름);
 ```
